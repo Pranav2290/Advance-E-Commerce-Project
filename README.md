@@ -55,3 +55,4 @@ Category & Product Performance:
 | Regular   |         Less profit |           **Higher margin %** |
 
 ## ⏱ Demand Over Time — Weekday Trends
+![week day trend](
