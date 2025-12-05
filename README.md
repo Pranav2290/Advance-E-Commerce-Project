@@ -88,4 +88,14 @@ Issues identified:
 🔸 Implement data-driven pricing and discount rules**
 
 ## 📈 Visualizations Included
-1. Revenue & Profit by Category
+### 1.  Heatmap: City × Category Profit
+   
+   ![City × Category Profit](images/heatmap.png)
+   
+### 2. Profit by Category
+   ![Profit by Category](images/profit_by_category.png)
+### 3. Profit by Product
+   ![Profit by Product](images/profit_by_product.png)
+### 4. Discount % by Category
+   
+   
