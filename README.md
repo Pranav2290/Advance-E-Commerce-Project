@@ -55,4 +55,37 @@ Category & Product Performance:
 | Regular   |         Less profit |           **Higher margin %** |
 
 ## ⏱ Demand Over Time — Weekday Trends
-![week day trend](
+![week day trend](images/week_days.png).
+
+- **Weekends → highest profit (Saturday best)**
+- **Monday → lowest spending**
+- **Schedule promotions on Fri–Sun**
+
+## 📝 Review Text Sentiment Analysis (NLP Lite)
+```python
+# using fillna() replace NaN with empty string in reviewText feature
+df['ReviewText'] = df['ReviewText'].fillna("")
+
+# Identify positive and negative keywords
+df['PositiveKeyWords'] = df['ReviewText'].str.contains('excellent|awesome|good|happy', case=False)
+df['NegativeKeyWords'] = df['ReviewText'].str.contains('bad|slow|late|average', case=False)
+```
+
+| Type              | Count |
+| ----------------- | ----: |
+| Positive keywords |     4 |
+| Negative keywords |     2 |
+
+Issues identified:
+- **Delivery delays**
+- **Fashion product quality concerns**
+
+## 🔍 Margin Leakage & Pricing Strategy
+- **Fashion requires 42% discount on average to sell 😬**
+- **Prime customers receive higher discounts (~40%)**
+- **Discount hurts profitability**
+
+🔸 Implement data-driven pricing and discount rules**
+
+## 📈 Visualizations Included
+1. Revenue & Profit by Category
