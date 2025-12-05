@@ -97,5 +97,5 @@ Issues identified:
 ### 3. Profit by Product
    ![Profit by Product](images/profit_by_product.png)
 ### 4. Discount % by Category
-   
+   ![Discount % by category](images/discount_by_category.png)
    
